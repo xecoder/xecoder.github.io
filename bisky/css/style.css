@@ -1,0 +1,535 @@
+
+/*---------------Fonts------------*/
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+/*--------------Fonts--------------*/
+
+/*---------------styles-----------*/
+
+
+
+/*------------sub menue -----*/
+
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+
+
+/*---------------styles-----------*/
+
+
+
+/*---------------NavBar bootstrap-----------*/
+
+
+/* -------------------navbar----------- */
+.navbar-default {
+    background-color:#3097d1; 
+    border-color: #1c73a5;
+    
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color:#22A7F0;
+    text-shadow: #fff 0.1em 0.1em 0.2em;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #22A7F0;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #22A7F0;
+    background-color: #3097d1;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #22A7F0;
+    background-color: #3097d1;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #3097d1;
+    border-bottom-color:#3097d1;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #1c73a5;
+    border-bottom-color: #1c73a5;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #1c73a5;
+    border-bottom-color: #1c73a5;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #1c73a5;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #1c73a5;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #1c73a5;
+        
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+
+/*---------------NavBar bootstrap-----------*/
+
+/*---------------My NavBar -----------*/
+
+.bisky-logo{
+   width:120px;
+   height:80px;
+   margin-top:-24px;
+}
+
+/*-------------*/
+.navbar-brand {
+    line-height:5px;
+    height: 70px;
+    padding-top:20px;
+}
+.navbar-toggle{
+    margin-top:17px;
+}
+
+.navbar-nav li a {
+    margin-top:10px;
+    font-size:15px;
+    font-weight:bold;
+    /*font-family: 'Fredoka One', cursive;*/
+	font-weight: bold;
+	font-family: Helvetica;
+}
+.navbar-right{
+    padding-left:5px;
+
+}
+.nav-social{
+   margin-top:-10px;
+   padding:-10px;
+}
+.social{
+   width:43px;
+   height:43px;
+
+}
+
+.bold{
+   font-size:17px;
+
+}
+/*-------------*/
+
+
+
+/*---------------My NavBar-----------*/
+
+
+/*---------------Body-----------*/
+
+body{ 
+    background-color:#F5F8FA;
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+/*----------------Slider------------*/
+.carousel  .item{
+   height:625px;
+}
+
+.item img {
+    height:510px;
+    padding-top:70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 645px;
+}
+
+
+/*----------------slider------------*/
+.welcome-bisky{
+   padding-top:15px;
+   text-align:center;
+   color:#2980b9;
+   font-weight:bold;
+   font-family: Helvetica;
+}
+.bisky-body-img{
+   margin-top:-20px;
+
+}
+.about-bisky{
+   text-align:center;
+
+}
+
+/*==================================
+ *        Main Section             *
+ *=================================*/
+ 
+ /*-----------Under nav-Box--------*/
+ .under-nav-box{
+    background-color:#2980b9;
+    margin-top:70px;
+    padding-bottom:1px;
+ }
+ .under-nav-box-img{
+   /* padding-bottom:-50px;*/
+ 
+ }
+.under-nav-box-text{
+   color:#fff;
+   text-shadow: black 0.1em 0.1em 0.2em;
+   padding-left:15px;
+   padding-top:50px;
+   padding-bottom:30px;
+   margin-top:30px; 
+   
+}
+
+.text-muted{
+   color:#3498db;
+}
+
+.contact-text{
+   text-align:left;
+
+}
+
+.contact-form{
+   padding-bottom:100px;
+}
+
+.call-numbers{
+   text-align:left;
+   padding-left:20px;
+
+}
+ 
+.conact-hr{
+   border: 1px solid #e4e4e4;
+
+}
+.numbers-well{
+    background-color:#fff;
+    padding-bottom:65px;
+    border:2px solid #e4e4e4;
+    border-radius:2%;
+
+
+}
+ 
+ /*------End of under nav-box------*/
+ /*-----------Under Slider---------*/
+ 
+ .about-box{
+  padding-left:10px;
+  padding-right:10px;
+ 
+ }
+ .about-box-text{
+   font-size:17px;
+   padding-top:10px;
+ }
+
+.about-box-well{
+   text-align:center;
+   background-color:#fff;
+}
+ .under-slider-text{
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-shadow:#bdc3c7 0em 0.1em;
+    color:#2c3e50;
+ }
+.my-laernmore-btn{
+   text-align:center;
+   margin-bottom:-6px;
+
+}
+ 
+.bisky-systems-text{
+   text-align:center;
+   text-shadow:#bdc3c7 0em 0.1em;
+   color:#2c3e50;
+
+}
+
+/*-----------Systems Pages--------*/
+
+.systems-about-section{
+   margin-top:25px;
+   padding-bottom:30px;
+
+}
+
+.systems-about-text{
+   margin-top:-20px;
+   padding-bottom:10px;
+
+}
+
+.my-system-pages-well{
+   background-color:#fff;
+}
+
+.systems-about-paragraph{
+    font-size:16px;
+
+}
+
+.Pricing-text{
+   text-align:center;
+   margin-top:-10px;
+   padding-top:5px;
+   padding-bottom:5px;
+}
+
+.buy-now-btn{
+   text-align:center;
+   text-align:center;
+
+}
+
+.system-about-caption{
+   text-align:center;
+   margin-top:-15px;
+   padding-bottom:5px;
+
+}
+
+
+/*---------End of Systems Pages-----*/
+
+
+ 
+ 
+ /*-------End OF Under Slider-------*/
+ 
+ 
+/*----------------------------------*/
+
+
+ /*-------Systems Section-----------*/
+.systems-section1{
+   padding-top:30px;
+   padding-left:10px;
+   padding-right:10px;
+ 
+}
+.systems-section2{
+   padding-left:10px;
+   padding-right:10px;
+
+}
+.systems-section3{
+   padding-left:10px;
+   padding-right:10px;
+}
+
+.my-thumbnial{
+   text-align:center;
+
+}
+.my-caption{
+   margin-top:-55px;
+
+}
+
+.systems-img{
+  margin-top:-25px;
+
+}
+.my-systems-btn{
+   padding-top:15px;
+   padding-bottom:10px;
+}
+ 
+ 
+ .contact-icon{
+    font-size:23px;
+ 
+ }
+ 
+ 
+ 
+ /*------End Of systems Section-----*/
+ /*----------------------------------*/
+ 
+ /*==================================
+ *       End Of Main Section        *
+ *=================================*/
+ 
+ 
+/*----------------------------------*/
+
+
+
+/*==================================
+ * What People Say Section         *
+ *=================================*/
+.what-people-say-head-container{
+   padding-left:20px;
+   padding-right:20px;
+}
+.people-say-well{
+   background-color:#F5F8FA;
+   text-align:center;
+   padding-bottom:15px;
+}
+
+.what-people-say{
+    padding-left:7px;
+    padding-right:7px;
+
+}
+.names{
+    font-weight:bold;
+
+}
+.text-position{
+    padding-top:15px;
+}
+.my-well{
+    background-color:#fff;
+}
+
+/*=================================*/
+
+
+/*=============================
+ *      End OF Body Section    *
+ *=============================*/
+
+
+/*-----------------------------*/
+
+
+/*=============================
+ *        Footer Section       *
+ *=============================*/
+
+footer{
+	background-color: #3097d1;
+    border-top: 1px solid #2980b9;
+    padding-bottom:13px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-bottom:-30px;
+}
+
+.footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+}
+.footer-text{
+   text-align:center;
+   padding-top:10px;
+   color: #fff;
+}
+.EGhostic-footer{
+   color:#fff;
+   
+}
+.EGhostic-footer:hover{
+    color:#2980b9;
+    text-shadow: #fff 0.1em 0.1em 0.2em;
+    text-decoration:none;
+}
+.footer-social li{
+    display: block;
+    margin-left:13px;
+    margin-right:auto;
+    float:left;
+}
+.footer-social{
+    margin-left:20px;
+    padding-top:3px;
+    
+}
+
+.footer-social-icon-size{
+    width:40px;
+    height:40px;  
+}
+
+
+
+/*=============================
+ *   End Of Footer Section     *
+ *=============================*/
+
+/*-----------------------------*/
